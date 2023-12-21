@@ -1,0 +1,1 @@
+funziona come un localhost --> quindi solo se sei collegato a quella rete

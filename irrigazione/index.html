@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irrigazione</title>
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 32px;
+        }
+
+        .input,
+        .output {
+            display: flex;
+            justify-content: center;
+            column-gap: 5%;
+            text-align: center;
+        }
+
+        button {
+            width: 128px;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-size: 1.3rem;
+            font-weight: bolder;
+        }
+
+        .pozzo {
+            background-color: greenyellow;
+        }
+
+        .valvola-irrigazione {
+            background-color: goldenrod;
+        }
+
+        .pozzo:hover,
+        .valvola-irrigazione:hover {
+            background-color: lightgray;
+            cursor: pointer;
+        }
+
+        label {
+            font-size: 1.3rem;
+            width: 128px;
+        }
+
+        div {
+            border: 1px solid red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Casa Irrigazione</h1>
+
+    <div class="container">
+        <div class="input">
+            <button class="pozzo">Riempi Cisterna</button>
+            <button class="valvola-irrigazione">Irriga</button>
+        </div>
+
+        <div class="output">
+            <div class="temp-esterna">
+                <label>Temperatura Esterna</label>
+                <br>
+                <label id="tmp-out">&nbsp;</label>
+            </div>
+
+            <div class="temp-serra">
+                <label>Temperatura Serra</label>
+                <br>
+                <label id="tmp-in">&nbsp;</label>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
