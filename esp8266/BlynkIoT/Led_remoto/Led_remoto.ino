@@ -7,7 +7,7 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-#define BLYNK_AUTH_TOKEN "NcObkVp-_-R_E8kkZZMWoekH0PN8kLb1" //Enter your blynk auth token
+#define BLYNK_AUTH_TOKEN "hdhdhhdhdhbdbbdbdbbd" //Enter your blynk auth token
 
 char auth[] = BLYNK_AUTH_TOKEN;
 char ssid[] = "ciro-wifi";//Enter your WIFI name
