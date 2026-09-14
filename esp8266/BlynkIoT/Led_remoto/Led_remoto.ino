@@ -3,15 +3,17 @@
 */
 
 //Include the library files
+#define BLYNK_TEMPLATE_ID "TMPL42ZnUU0pp"
+#define BLYNK_TEMPLATE_NAME "Led"
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-#define BLYNK_AUTH_TOKEN "hdhdhhdhdhbdbbdbdbbd" //Enter your blynk auth token
+#define BLYNK_AUTH_TOKEN "" //Enter your blynk auth token
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "ciro-wifi";//Enter your WIFI name
-char pass[] = "*********";//Enter your WIFI password
+char ssid[] = "";//Enter your WIFI name
+char pass[] = "";//Enter your WIFI password
 
 //Get the button value
 BLYNK_WRITE(V0) {
